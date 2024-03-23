@@ -9,7 +9,7 @@
   <!-- Custom CSS -->
   <style>
     body {
-      background-color: #9C6A3A;
+      background-color: #001E48;
     }
     .jumbotron {
       background-color: #007bff;
@@ -26,7 +26,7 @@
       height: 600px; /* Adjust this height as needed */
     }
     .btn {
-      color: #f8f9fa
+      color: #3A9C91
         }
     .hidden {
       display: none;
