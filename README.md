@@ -25,6 +25,9 @@
     .google-form-iframe {
       height: 600px; /* Adjust this height as needed */
     }
+    .btn {
+      color: #f8f9fa
+        }
     .hidden {
       display: none;
     }
