@@ -11,7 +11,7 @@
     body {
       background-color: #f8f9fa;
     }
-    .jumbotron {
+    .jumbotron .lead {
       background-color: #007bff;
       color: #fff;
       padding: 2rem;
