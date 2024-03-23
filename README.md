@@ -26,7 +26,7 @@
       height: 600px; /* Adjust this height as needed */
     }
     .btn {
-      color: #3A9C91
+      color: #001E48
         }
     .hidden {
       display: none;
