@@ -16,6 +16,9 @@
       color: #fff;
       padding: 2rem;
     }
+    .lead {
+      color: #fff;
+      }
     .card {
       margin-bottom: 20px;
     }
