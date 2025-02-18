@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,6 +22,8 @@
                 language: "English",
             });
 
+            const [showPopup, setShowPopup] = React.useState(false); // State to manage popup visibility
+
             const toggleLanguage = () => {
                 setFormData((prev) => ({
                     ...prev,
@@ -35,19 +37,29 @@
 
             const handleSubmit = async (e) => {
                 e.preventDefault();
-                const response = await fetch(
-                    "https://script.google.com/macros/s/AKfycbxT87lyeJIY0WYZahIpa5l9K4g7qWLH5DnsWPCOcYXNcDOgr3q8E3nQI2Fhif8WVSSzmg/exec",
-                    {
-                        method: "POST",
-                        headers: { "Content-Type": "application/json" },
-                        body: JSON.stringify(formData),
+                try {
+                    const response = await fetch(
+                        "https://script.google.com/macros/s/AKfycbxT87lyeJIY0WYZahIpa5l9K4g7qWLH5DnsWPCOcYXNcDOgr3q8E3nQI2Fhif8WVSSzmg/exec",
+                        {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify(formData),
+                        }
+                    );
+
+                    const data = await response.text(); // Log response
+                    console.log("Response:", data);
+
+                    if (response.ok) {
+                        setShowPopup(true); // Show success message
+                        setTimeout(() => setShowPopup(false), 3000); // Hide after 3 sec
+                        setFormData({ name: "", email: "", phone: "", classInterest: "", language: formData.language });
+                    } else {
+                        alert(formData.language === "English" ? "Failed to submit. Try again!" : "Error al enviar. ¡Inténtalo de nuevo!");
                     }
-                );
-                if (response.ok) {
-                    alert("Form submitted successfully!");
-                    setFormData({ name: "", email: "", phone: "", classInterest: "", language: formData.language });
-                } else {
-                    alert("Failed to submit form. Please try again.");
+                } catch (error) {
+                    console.error("Error submitting form:", error);
+                    alert(formData.language === "English" ? "There was an error. Check console!" : "Hubo un error. ¡Revisa la consola!");
                 }
             };
 
@@ -62,6 +74,12 @@
                         <button type="submit" className="w-full p-2 bg-blue-500 text-white rounded">{formData.language === "English" ? "Submit" : "Enviar"}</button>
                     </form>
                     <button onClick={toggleLanguage} className="w-full p-2 mt-2 bg-gray-300 rounded">{formData.language === "English" ? "Switch to Spanish" : "Cambiar a Inglés"}</button>
+
+                    {showPopup && (
+                        <div className="absolute top-10 right-10 p-4 bg-green-500 text-white rounded shadow-md">
+                            {formData.language === "English" ? "Thank you! Your form has been submitted." : "¡Gracias! Su formulario ha sido enviado."}
+                        </div>
+                    )}
                 </div>
             );
         }
