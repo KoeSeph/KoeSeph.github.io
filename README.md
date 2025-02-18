@@ -39,7 +39,7 @@
                 e.preventDefault();
                 try {
                     const response = await fetch(
-                        "https://script.google.com/macros/s/AKfycbxGJjj421BodilOn-lFzh42ZgYQhE-Zkww1YGh0V3ziyMyqKks8zdDYcgsCBoziTQ5dkg/exec",
+                        "https://script.google.com/macros/s/AKfycbyvPSrbE1rj6bwPv_JgDrqKsFzCq6kjU-yzTrc4DeCSv606TTitI8lZaVbWR8z2yEho/exec",
                         {
                             method: "POST",
                             headers: { "Content-Type": "application/json" },
