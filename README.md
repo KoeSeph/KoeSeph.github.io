@@ -36,7 +36,7 @@
             const handleSubmit = async (e) => {
                 e.preventDefault();
                 const response = await fetch(
-                    "https://script.google.com/macros/s/AKfycbx7jwKnfBgPxaZz_my-LRS6OWzmsyld2ES00yiRVc6H2SN1dAhIc2Ag0RRo3z6KGdFjIQ/exec",
+                    "https://script.google.com/macros/s/AKfycbxT87lyeJIY0WYZahIpa5l9K4g7qWLH5DnsWPCOcYXNcDOgr3q8E3nQI2Fhif8WVSSzmg/exec",
                     {
                         method: "POST",
                         headers: { "Content-Type": "application/json" },
