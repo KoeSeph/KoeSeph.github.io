@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
 </head>
 <body class="bg-gray-100 flex justify-center items-center h-screen">
     <div id="root"></div>
-    
+
     <script type="text/babel">
         function CRMForm() {
             const [formData, setFormData] = React.useState({
@@ -22,7 +22,7 @@
                 language: "English",
             });
 
-            const [showPopup, setShowPopup] = React.useState(false); // State to manage popup visibility
+            const [showPopup, setShowPopup] = React.useState(false); // Success popup
 
             const toggleLanguage = () => {
                 setFormData((prev) => ({
@@ -37,29 +37,31 @@
 
             const handleSubmit = async (e) => {
                 e.preventDefault();
+
+                // Convert form data into Google Form format
+                const formUrl = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdV11p4oXCH5JhN3iF1aQz1kTGrzoYB_q1oeBUVEZ6SqYOLLw/formResponse";
+                const formDataToSend = new FormData();
+                formDataToSend.append("entry.727987131", formData.name);
+                formDataToSend.append("entry.1934937746", formData.email);
+                formDataToSend.append("entry.1820786173", formData.phone);
+                formDataToSend.append("entry.498337758", formData.classInterest);
+                
+
                 try {
-                    const response = await fetch(
-                        "https://script.google.com/macros/s/AKfycbyvPSrbE1rj6bwPv_JgDrqKsFzCq6kjU-yzTrc4DeCSv606TTitI8lZaVbWR8z2yEho/exec",
-                        {
-                            method: "POST",
-                            headers: { "Content-Type": "application/json" },
-                            body: JSON.stringify(formData),
-                        }
-                    );
+                    await fetch(formUrl, {
+                        method: "POST",
+                        body: formDataToSend,
+                        mode: "no-cors", // Bypasses CORS issues
+                    });
 
-                    const data = await response.text(); // Log response
-                    console.log("Response:", data);
+                    setShowPopup(true); // Show success message
+                    setTimeout(() => setShowPopup(false), 3000); // Hide after 3 sec
 
-                    if (response.ok) {
-                        setShowPopup(true); // Show success message
-                        setTimeout(() => setShowPopup(false), 3000); // Hide after 3 sec
-                        setFormData({ name: "", email: "", phone: "", classInterest: "", language: formData.language });
-                    } else {
-                        alert(formData.language === "English" ? "Failed to submit. Try again!" : "Error al enviar. ¡Inténtalo de nuevo!");
-                    }
+                    setFormData({ name: "", email: "", phone: "", classInterest: "", language: formData.language });
+
                 } catch (error) {
                     console.error("Error submitting form:", error);
-                    alert(formData.language === "English" ? "There was an error. Check console!" : "Hubo un error. ¡Revisa la consola!");
+                    alert(formData.language === "English" ? "Submission failed!" : "¡Error al enviar!");
                 }
             };
 
