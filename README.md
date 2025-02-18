@@ -1,114 +1,54 @@
+import React, { useState } from "react";
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Koseph | Tech UGC Creator</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #0d1117;
-            color: #ffffff;
-        }
-        .hero {
-            text-align: center;
-            padding: 80px 20px;
-            background: linear-gradient(135deg, #0a84ff, #004080);
-        }
-        .hero h1 {
-            font-size: 3rem;
-        }
-        .hero p {
-            font-size: 1.2rem;
-        }
-        .portfolio-card {
-            background-color: #161b22;
-            border: 1px solid #30363d;
-            border-radius: 10px;
-            padding: 20px;
-            text-align: center;
-        }
-        .contact-section {
-            text-align: center;
-            padding: 50px 20px;
-        }
-    </style>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Koseph | Tech UGC</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
-    <header class="hero">
-        <h1>High-Quality Tech UGC Content</h1>
-        <p>Unboxings | Reviews | Tutorials</p>
-        <a href="#contact" class="btn btn-light btn-lg mt-3">Work With Me</a>
-    </header>
-    
-    <section id="portfolio" class="container py-5">
-        <h2 class="text-center mb-4">My Portfolio</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="portfolio-card">
-                    <h4>Unboxing Video</h4>
-                    <p>Sample unboxing video showcase.</p>
-                    <video controls width="100%">
-                        <source src="video1.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="portfolio-card">
-                    <h4>Product Review</h4>
-                    <p>Tech product review sample.</p>
-                    <video controls width="100%">
-                        <source src="video2.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="portfolio-card">
-                    <h4>Tutorial</h4>
-                    <p>Tech tutorial example.</p>
-                    <video controls width="100%">
-                        <source src="video3.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="services" class="container py-5 text-center">
-        <h2>My Services</h2>
-        <p>I create engaging UGC content for tech brands, including:</p>
-        <ul class="list-unstyled">
-            <li>🎥 Unboxings</li>
-            <li>📝 Product Reviews</li>
-            <li>📖 Tutorials & How-Tos</li>
-        </ul>
-    </section>
-    
-    <section id="contact" class="contact-section">
-        <h2>Let's Work Together</h2>
-        <p>Email: <a href="mailto:koesavant@gmail.com" class="text-light">koesavant@gmail.com</a></p>
-        <p>Follow me on <a href="https://x.com/Koseph104" class="text-light">X</a></p>
-    </section>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+export default function CRMForm() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    classInterest: "",
+    language: "English",
+  });
+
+  const toggleLanguage = () => {
+    setFormData((prev) => ({
+      ...prev,
+      language: prev.language === "English" ? "Spanish" : "English",
+    }));
+  };
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const response = await fetch(
+      "https://script.google.com/macros/s/AKfycbx0Ja5BTTi-8lMW3TMr-y-VpagDi0GZCvLZByGi9LeEPUprVilEY8AFI-eOeg7y7teGJQ/exec",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      }
+    );
+    if (response.ok) {
+      alert("Form submitted successfully!");
+      setFormData({ name: "", email: "", phone: "", classInterest: "", language: formData.language });
+    } else {
+      alert("Failed to submit form. Please try again.");
+    }
+  };
+
+  return (
+    <div className="p-6 max-w-md mx-auto bg-white rounded-xl shadow-md space-y-4">
+      <h2 className="text-xl font-bold">{formData.language === "English" ? "Class Registration" : "Registro de Clases"}</h2>
+      <form onSubmit={handleSubmit} className="space-y-3">
+        <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder={formData.language === "English" ? "Name" : "Nombre"} className="w-full p-2 border rounded" required />
+        <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" className="w-full p-2 border rounded" required />
+        <input type="tel" name="phone" value={formData.phone} onChange={handleChange} placeholder={formData.language === "English" ? "Phone Number" : "Número de Teléfono"} className="w-full p-2 border rounded" required />
+        <input type="text" name="classInterest" value={formData.classInterest} onChange={handleChange} placeholder={formData.language === "English" ? "Class Interest" : "Interés en Clases"} className="w-full p-2 border rounded" required />
+        <button type="submit" className="w-full p-2 bg-blue-500 text-white rounded">{formData.language === "English" ? "Submit" : "Enviar"}</button>
+      </form>
+      <button onClick={toggleLanguage} className="w-full p-2 mt-2 bg-gray-300 rounded">{formData.language === "English" ? "Switch to Spanish" : "Cambiar a Inglés"}</button>
+    </div>
+  );
+}
