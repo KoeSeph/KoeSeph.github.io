@@ -2,14 +2,14 @@
   {
     "question": "While driving, how should you be looking ahead?",
     "options": ["Look to the right side of the roadway", "Look back and forth, near and far", "Stare straight ahead at all times", "All of the above"],
-    "answer": 0
+    "answer": 1
   }, 
 
 
   {
     "question": "When driving at night, you should:",
     "options": ["Always use your high beam headlights", "Watch the solid white line on the left side of the roadway", "Adjust your speed to keep stopping distance within your sight distance", "Keep your high beams on at all times"],
-    "answer": 0
+    "answer": 2
   }, 
 
 
@@ -37,28 +37,28 @@
   {
     "question": "When driving through construction zones, you should:",
     "options": ["Speed through quickly", "Stop and shift to low gear", "Watch for uneven surfaces", "Slow down only if workers are near the roadway"],
-    "answer": 0
+    "answer": 2
   }, 
 
 
   {
     "question": "If you break down on a level, straight, 4-lane divided highway, place warning triangles:",
     "options": ["10 ft rear, 100 ft rear, and 100 ft front", "10 ft rear, 100 ft rear, and 200 ft rear", "100 ft, 200 ft, and 300 ft rear", "50 ft, 100 ft, and 200 ft rear"],
-    "answer": 0
+    "answer": 1
   }, 
 
 
   {
     "question": "Why should you limit horn use?",
     "options": ["It may not work with air brakes engaged", "It may startle other drivers", "You should keep both hands on the wheel", "The CDL manual says it’s not necessary"],
-    "answer": 0
+    "answer": 1
   }, 
 
 
   {
     "question": "What should you do with a tailgater?",
     "options": ["Increase following distance", "Avoid sudden changes", "Avoid flashing brake lights", "All of the above"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
@@ -72,21 +72,21 @@
   {
     "question": "If unsure about clearance under an object:",
     "options": ["Assume all clearances are fine", "Clearance doesn’t matter on state/federal roads", "Take another route", "All of the above"],
-    "answer": 0
+    "answer": 2
   }, 
 
 
   {
     "question": "Controlled braking means:",
     "options": ["Braking hard enough to lock wheels", "Lock wheels, release, reapply", "Apply firm pressure without locking", "Used only if no ABS"],
-    "answer": 0
+    "answer": 2
   }, 
 
 
   {
     "question": "If a tire blows at 60 mph:",
     "options": ["Start light, controlled braking", "Begin stab braking", "Hold the wheel firmly, don’t brake until slowed", "Apply emergency braking"],
-    "answer": 0
+    "answer": 2
   }, 
 
 
@@ -100,7 +100,7 @@
   {
     "question": "Why do hazmat regulations exist?",
     "options": ["For safe drivers/equipment", "To communicate risks", "To contain the product", "All of the above"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
@@ -114,21 +114,21 @@
   {
     "question": "Alcohol impairs:",
     "options": ["Muscle coordination", "Reaction time", "Depth perception", "All of the above"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
   {
     "question": "Which is true about cold weather driving?",
     "options": ["Exhaust leaks aren’t dangerous", "Engines can’t overheat below 32°F", "Bleach improves traction", "Use washer fluid with antifreeze"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
   {
     "question": "Placards and labels are for:",
     "options": ["Containment", "Controlling risk", "Communication", "All of the above"],
-    "answer": 0
+    "answer": 2
   }, 
 
 
@@ -142,35 +142,35 @@
   {
     "question": "Hydroplaning is:",
     "options": ["When an aircraft lands on a highway", "Radiator overheating", "Happens only at high speeds", "When wheels lose contact due to water/slush"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
   {
     "question": "If being tailgated:",
     "options": ["Motion them to pass", "Increase following distance", "Turn on 4-way flashers", "Slam brakes"],
-    "answer": 0
+    "answer": 1
   }, 
 
 
   {
     "question": "What can cause a skid?",
     "options": ["Driving too fast", "Overbraking", "Oversteering", "All of the above"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
   {
     "question": "When using a fire extinguisher:",
     "options": ["Get close to the fire", "Aim at the base", "Aim at the top", "All of the above"],
-    "answer": 0
+    "answer": 1
   }, 
 
 
   {
     "question": "If your vehicle is declared unsafe by an inspector:",
     "options": ["It’s out of service for 24 hours", "Out of service for 48 hours", "Out until carrier arranges repairs", "Out until fixed"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
@@ -184,28 +184,28 @@
   {
     "question": "Engine braking is strongest when:",
     "options": ["Above governor RPM in high gear", "Near governor RPM in low gear", "Above governor RPM in low gear", "Near governor RPM in high gear"],
-    "answer": 0
+    "answer": 1
   }, 
 
 
   {
     "question": "Water can extinguish:",
     "options": ["Electrical fires", "Diesel fuel fires", "Gasoline fires", "Tire fires"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
   {
     "question": "Convex mirrors:",
     "options": ["Make things larger", "Make things appear closer", "Do both", "Show wider area"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
   {
     "question": "Use horn:",
     "options": ["To move deer away", "When car is in your way", "To avoid a collision", "When changing lanes"],
-    "answer": 0
+    "answer": 2
   }, 
 
 
@@ -219,14 +219,14 @@
   {
     "question": "Which of the following happens when a tire blows at highway speed?",
     "options": ["You will experience an immediate and dramatic drop in speed", "You will feel a vibration", "You will hear a hissing sound", "The high air pressure signal device will come on"],
-    "answer": 0
+    "answer": 1
   }, 
 
 
   {
     "question": "What is the purpose of a pre-trip inspection?",
     "options": ["To add an additional 15 minutes of time to your log book", "To aid in being cited by a law enforcement official", "To help you find problems that could lead to a breakdown or accident", "To see if an additional 1,000 pounds of freight can be added to maximize revenue"],
-    "answer": 0
+    "answer": 2
   }, 
 
 
@@ -240,7 +240,7 @@
   {
     "question": "When driving in fog, you should:",
     "options": ["Increase your vehicle speed", "Stop on the side of the road", "Use low-beam headlights", "All of the above"],
-    "answer": 0
+    "answer": 2
   }, 
 
 
@@ -254,7 +254,7 @@
   {
     "question": "Drinking alcohol can affect your:",
     "options": ["Judgment", "Vision", "Coordination and reaction time", "All of the above"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
@@ -268,14 +268,14 @@
   {
     "question": "Which of the following is true about rear drive wheel braking skids?",
     "options": ["The vehicle’s front wheels will slide sideways", "It is not the cause of jackknifing", "The locked wheels have more traction than the wheels that are rolling", "If it occurs with a vehicle towing a trailer, the trailer can push the towing vehicle sideways"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
   {
     "question": "Which of the following statements is true?",
     "options": ["Hazards are easier to see at night than during the day", "Hazards are easier to see during the day than at night", "Most drivers are more alert at night than during the day", "It is recommended that you use your high beams at all times between 7:00 P.M. and 7:00 A.M."],
-    "answer": 0
+    "answer": 1
   }, 
 
 
@@ -289,14 +289,14 @@
   {
     "question": "Bridge formulas are designed to:",
     "options": ["Determine the total gross vehicle weight of a vehicle", "Permit the same maximum axle weight for any axle spacing", "Permit less maximum axle weight for axles that are closer together", "Permit less maximum axle weight for axles that are further apart"],
-    "answer": 0
+    "answer": 2
   }, 
 
 
   {
     "question": "When traveling down a long downgrade, you should always:",
     "options": ["Apply trailer brakes to reduce or maintain speed", "Use the braking effect of the engine", "Downshift when you exceed a safe speed", "Exceed the posted speed limit"],
-    "answer": 0
+    "answer": 1
   }, 
 
 
@@ -310,21 +310,21 @@
   {
     "question": "Which of the following is a sign of drowsy driving?",
     "options": ["You can’t stop yawning", "You drift between lanes", "Your eyes close or go out of focus by themselves", "All of the above"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
   {
     "question": "Which of the following statements about causes of vehicle fires is true?",
     "options": ["An overheated radiator is the most common type of vehicle fire", "Carrying a properly charged and rated fire extinguisher will help prevent fires", "Under-inflated or flat tires will not cause a vehicle fire", "Poor trailer ventilation can cause cargo to catch fire"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
   {
     "question": "If you become so ill that you cannot operate a motor vehicle safely, you should:",
     "options": ["Drink extra coffee to stay alert", "Drive faster so you get home quicker", "Not drive, or if on the road, drive to the nearest place where you can safely stop", "All of the above"],
-    "answer": 0
+    "answer": 2
   }, 
 
 
@@ -338,14 +338,14 @@
   {
     "question": "Steering wheel free play:",
     "options": ["Should not be more than 2 inches at the rim of a 20-inch steering wheel", "Should not be more than 10 degrees", "Is not allowed by the regulations", "Both A and B are correct"],
-    "answer": 0
+    "answer": 3
   }, 
 
 
   {
     "question": "Safety inspections during a trip should be performed:",
     "options": ["Within the first 50 miles", "Every 150 miles or every 3 hours (whichever comes first)", "After every break you take during driving", "All of the above"],
-    "answer": 0
+    "answer": 3
   }
 
 ]
