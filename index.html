@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Quiz Bot</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 40px;
+    }
+    #quiz-container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+    .question {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    .option {
+      display: block;
+      background: #e0e0e0;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 5px 0;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .option:hover {
+      background: #d4d4d4;
+    }
+    #score {
+      margin-top: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+    #quiz-select {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <select id="quiz-select">
+    <option disabled selected>Select a quiz...</option>
+    <option value="PracticeTestC-1.json">C-1</option>
+    <option value="PracticeTestC-2.json">C-2</option>
+    <option value="PracticeTestB-1.json">B-1</option>
+    <option value="PracticeTestB-2.json">B-2</option>
+    <option value="PracticeTestB-3.json">B-3</option>
+    <option value="PracticeTestA-2.json">A-2</option>
+    <option value="PracticeTestA-3.json">A-3</option>
+  </select>
+
+  <div id="quiz-container" style="display:none">
+    <div class="question" id="question"></div>
+    <div id="options"></div>
+    <div id="score"></div>
+  </div>
+
+  <script>
+    let questions = [];
+    let current = 0;
+    let score = 0;
+
+    const questionEl = document.getElementById('question');
+    const optionsEl = document.getElementById('options');
+    const scoreEl = document.getElementById('score');
+    const quizContainer = document.getElementById('quiz-container');
+    const quizSelect = document.getElementById('quiz-select');
+
+    quizSelect.addEventListener('change', async () => {
+  const file = quizSelect.value;
+  try {
+    const res = await fetch(file);
+    questions = await res.json();
+
+    if (Array.isArray(questions)) {
+      current = 0;
+      score = 0;
+      scoreEl.textContent = "";
+      questionEl.textContent = "";
+      optionsEl.innerHTML = "";
+      quizContainer.style.display = 'block';
+      showQuestion();
+    } else {
+      alert("Couldn't load questions correctly.");
+    }
+  } catch (err) {
+    console.error("Error details:", err);
+    alert("Error loading quiz file.");
+  }
+});
+
+    function showQuestion() {
+      if (current >= questions.length) {
+        questionEl.textContent = "Quiz complete!";
+        optionsEl.innerHTML = "";
+        scoreEl.textContent = `You scored ${score} out of ${questions.length}`;
+        return;
+      }
+
+      const q = questions[current];
+      questionEl.textContent = q.question;
+      optionsEl.innerHTML = "";
+
+      q.options.forEach((opt, idx) => {
+        const btn = document.createElement('button');
+        btn.textContent = opt;
+        btn.className = 'option';
+        btn.onclick = () => {
+          if (idx === q.answer) score++;
+          current++;
+          showQuestion();
+        };
+        optionsEl.appendChild(btn);
+      });
+    }
+  </script>
+</body>
+</html>

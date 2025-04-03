@@ -1,0 +1,211 @@
+[
+  {
+    "question": "The air loss rate for a straight truck or bus (engine off, brakes applied) should not exceed:",
+    "options": ["1 psi in one minute", "2 psi in 45 seconds", "2 psi in one minute", "3 psi in one minute"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Which of the following statements about brakes is true?",
+    "options": ["The heavier the vehicle, the more work the brakes must do to stop it", "Brakes have more stopping power when very hot", "Brake drums cool very quickly", "All of the above"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The purpose of engine retarders is to:",
+    "options": ["Provide emergency brakes", "Help slow the vehicle and reduce brake wear", "Apply extra braking power to non-drive axles", "Help prevent skids and slides"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If your vehicle has an alcohol evaporator, it is used to:",
+    "options": ["Remove alcohol that condenses in the tanks", "Let the driver skip daily draining", "Increase pressure like a supercharger", "Reduce the risk of ice in air brake valves during cold weather"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The air supply pressure gauge shows:",
+    "options": ["How much air has been used", "The pressure in the air tanks", "Pressure going to the brake chambers", "None of the above"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Which system applies and releases the brakes when the driver uses the brake pedal?",
+    "options": ["Emergency brake system", "Service brake system", "Parking brake system", "None of the above"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When using parking or emergency brakes, what type of pressure is used?",
+    "options": ["Fluid pressure", "Spring pressure", "Air pressure", "All of the above"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Modern air brake systems include three subsystems: service brakes, parking brakes, and:",
+    "options": ["Emergency brakes", "Foot brakes", "S-cam brakes", "Drum brakes"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Air loss in a single vehicle (not a combination unit) should not exceed:",
+    "options": ["1 psi in 30 seconds", "1 psi in one minute", "2 psi in 45 seconds", "3 psi in one minute"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The vehicle must have a warning device that activates when service tank pressure drops below:",
+    "options": ["40 psi", "50 psi", "60 psi", "80 psi"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Vehicles with air brakes must have:",
+    "options": ["At least three air tanks", "A hydraulic backup system", "A gauge showing available pressure", "A gauge showing application pressure to brake chambers"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "How do you check free play in manual slack adjusters?",
+    "options": ["Stop on level ground and apply emergency brakes", "Chock wheels, release parking brakes, then pull slack adjusters", "Park and drain air before adjusting", "Apply service brake at chambers and observe slack movement"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The most common foundation brake on heavy vehicles is:",
+    "options": ["Disc", "Wedge and drum", "S-cam drum", "None of the above"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The air compressor governor controls:",
+    "options": ["Compressor RPMs", "Condition of the compressor", "Pressure applied to brakes", "When the compressor fills the tanks"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The brake pedal:",
+    "options": ["Is the main control of the system", "Can be used as a footrest during driving", "Controls air pressure applied to the brakes", "Transfers force to slack adjusters via rods"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Spring or parking brake effectiveness depends on:",
+    "options": ["Service brake condition", "Testing by trained brake technicians", "Service brake adjustment", "Braking power when brakes are hot"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If the service brake system fails, which system do you need to stop the vehicle?",
+    "options": ["Parking brake system", "Emergency brake system", "Drum brake system", "Hand brake system"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "In winter, a vehicle with an alcohol evaporator should be:",
+    "options": ["Checked and refilled daily", "Drained of alcohol", "Oiled with 5wt oil", "Replaced with new alcohol daily"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What activates the brake light switch in an air system?",
+    "options": ["Spring pressure", "Hydraulic pressure", "Air pressure", "Electricity"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Which of the following is acceptable in the air brake system?",
+    "options": ["Oil", "Air", "Water", "All of the above"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Air brakes use ___ to make the brakes work.",
+    "options": ["Hydraulic fluid", "Oil", "Processed air", "Compressed air"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Dual parking control valves let you use tank pressure to:",
+    "options": ["Release spring brakes in emergencies", "Apply extra stopping pressure", "Stay parked without using service air", "Balance the service brakes while driving"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "You should use parking brakes:",
+    "options": ["When slowing down", "As little as possible", "Whenever you park", "Only during inspections"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "While driving, spring brakes are usually held back by:",
+    "options": ["Air pressure", "Spring pressure", "Centrifugal force", "Bolts or clamps"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "ABS systems notify you something is wrong by:",
+    "options": ["Green lights", "A red button", "Yellow malfunction lamps", "All of the above"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "ABS activates only:",
+    "options": ["In cold temperatures", "When wheels are about to lock", "In warm temperatures", "When other brake systems fail"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "In an emergency stop, brake in a way that you:",
+    "options": ["Steer hard while braking", "Lock the brakes with full power", "Maintain steering and stay straight", "Use the hand brake first"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Tractor/spring brakes fully engage when air pressure drops to:",
+    "options": ["10–15 mph", "10–15 psi", "20–45 psi", "None of the above"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "On long or steep downgrades, the best braking strategy is:",
+    "options": ["Use engine braking, then brake firmly when speed exceeds safe limit by 5 mph", "Use stab braking", "Use trailer brakes only", "Brake when speed is 5 mph over the limit, then release when back to safe speed"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "To use stab braking in an emergency:",
+    "options": ["Pump the brake pedal rapidly and lightly", "Brake hard until wheels lock, release until they roll, repeat", "Brake hard, then release for as long as they were locked", "Brake hard using both pedal and hand valve"],
+    "answer": 0
+  }
+
+]

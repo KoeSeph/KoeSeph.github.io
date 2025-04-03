@@ -1,0 +1,701 @@
+[
+  {
+    "question": "You are traveling down a long, steep hill. Your brakes get so hot that they fail. What should you do?",
+    "options": ["Downshift", "Pump the brake pedal", "Look for an escape ramp or escape route"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The center of gravity of a load:",
+    "options": ["Should be kept as high as possible", "Can make a vehicle more likely to tip over on curves if it is high", "Is only a problem if the vehicle is overloaded"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "To prevent a load from shifting, there should be at least one tiedown for every:",
+    "options": ["10 feet of cargo", "15 feet of cargo", "20 feet of cargo"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What is the proper way to hold a steering wheel?",
+    "options": ["Both hands close together near the top", "Both hands close together near the bottom", "Hands placed on opposite sides of the wheel"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "You are driving a 40-foot vehicle at 35 mph. The road is dry and visibility is good. What is the minimum safe following distance?",
+    "options": ["2 seconds", "4 seconds", "6 seconds"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Which of these statements about drinking alcohol is true?",
+    "options": ["A few beers have the same effect as a few shots of whiskey or glasses of wine", "Coffee and fresh air will help a drinker sober up", "Not everyone who drinks is affected by alcohol"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Ice builds up on your windshield wipers and they stop cleaning. You should:",
+    "options": ["Keep driving and turn on the defroster", "Spray the windshield with washer fluid", "Stop safely and fix the problem"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What is countersteering?",
+    "options": ["Steering opposite of other drivers' expectations", "Using steering axle brakes", "Turning back the other way after avoiding a traffic emergency"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Which is true about driving in strong winds?",
+    "options": ["Winds are a problem when exiting tunnels", "Drive alongside vehicles to break the wind", "Lighter vehicles have fewer wind problems"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "To stay alert while driving, you should:",
+    "options": ["Schedule trips during your usual sleep time", "Take cold medicine", "Take short breaks before becoming drowsy"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Without a Hazardous Materials Endorsement, when can you haul hazmat?",
+    "options": ["If not crossing state lines", "If placards aren’t required", "If a certified driver rides with you"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Cargo inspections:",
+    "options": ["Are not the driver's responsibility", "Should be done after every break", "Are only needed for hazardous materials"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Retarders:",
+    "options": ["Cause brake wear", "Disconnect steering axle brakes", "Can cause drive wheels to skid with poor traction"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When descending a steep hill, use:",
+    "options": ["The same gear as uphill", "A lower gear", "A higher gear"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Marking a stopped vehicle:",
+    "options": ["If a hill or curve blocks 500 feet visibility, move rear triangle farther back", "Only place reflective triangles if stopped 30+ minutes", "Leave taillights on to warn others"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "A lightly loaded drive axle may cause:",
+    "options": ["Poor traction", "Tire damage", "Better handling"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Which is true about speed management?",
+    "options": ["Empty trucks stop faster", "Doubling speed doubles stopping distance", "Choose a speed that allows stopping within visible distance"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Best brake technique on steep downhill:",
+    "options": ["Light, steady pressure", "Brake 3 seconds to reduce speed by 5 mph", "Use stronger pressure as you go"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Which is true about double clutching?",
+    "options": ["Don’t use on slippery roads", "Use only with heavy loads", "Use the tachometer to know when to shift"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Turn signals:",
+    "options": ["Not needed when changing lanes on a 4-lane highway", "Signal early when turning", "Use turn signals as emergency markers"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Every time you leave your vehicle:",
+    "options": ["Turn the wheel sharply left", "Apply the parking brake", "Leave it in gear if manual"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "About cargo loading:",
+    "options": ["Legal weight limits are always safe", "State laws set weight limits", "Shippers are responsible for overloading"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "At night, you should:",
+    "options": ["Drive slow enough to stop within headlight range", "Glance directly at oncoming lights", "Keep your dash lights bright"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If your vehicle catches fire:",
+    "options": ["Park in an open area", "Park near buildings/trees for wind shelter", "Speed up to blow out flames"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "How can you know if your vehicle has ABS?",
+    "options": ["Yellow ABS light on dashboard", "Look under the trailer for wheel sensors", "Check if it skids when braking hard"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Vehicle in front looks like it’s going to turn. What should you do?",
+    "options": ["Pass on the right", "Slow down and be ready to stop", "Speed up to get around them"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Vehicle condition report must be signed:",
+    "options": ["By the mechanic only", "By the dispatcher", "By the driver"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Stab braking:",
+    "options": ["Apply brakes firmly until wheels lock, then release", "Press brakes lightly and hold", "Only use for downhill braking"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "You’re driving with ABS. During emergency braking:",
+    "options": ["Pump the brakes", "Apply full pressure", "Use hand valve to help stop"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Most common cause of serious vehicle skids:",
+    "options": ["Turning too sharply", "Poor roads", "Driving too fast for conditions"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Inspect cargo:",
+    "options": ["After the first 50 miles", "Every 3 hours or 150 miles", "Every break", "All of the above"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "You’re driving downhill with a downgrade ahead. You should:",
+    "options": ["Shift into a higher gear", "Use only trailer brakes", "Shift into a lower gear"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If a tire blows out at high speed:",
+    "options": ["Brake hard immediately", "Hold steering wheel firmly", "Downshift quickly"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Gross combination weight (GCW) is:",
+    "options": ["Total weight of tractor and trailer", "Weight of cargo only", "Weight of the driver and passengers"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Driving in fog:",
+    "options": ["Use high beams", "Avoid driving if possible", "Drive faster to get through it quickly"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "How do you test hydraulic brakes for leaks?",
+    "options": ["Pump 3 times, hold for 5 seconds, pedal should not move", "Hold for 10 seconds, listen for hissing", "Release brake, then press sharply"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If your brakes fail going downhill:",
+    "options": ["Downshift and use an escape ramp", "Pump the brake pedal", "Use parking brakes"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When driving at night, avoid glare by:",
+    "options": ["Staring at the centerline", "Looking at oncoming headlights", "Looking slightly to the right side"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "You’re turning right with a long vehicle. What should you do?",
+    "options": ["Swing left before turning", "Stay centered and take the corner wide", "Keep the rear close to the curb"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Blocking cargo helps:",
+    "options": ["Prevent forward movement", "Prevent rolling", "All of the above"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Backing a tractor-trailer:",
+    "options": ["Back quickly to reduce time", "Use a helper and back slowly", "Back at an angle when possible"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Driving in the mountains, always:",
+    "options": ["Stay in the right lane", "Use the brake pedal only", "Test your brakes before starting downhill"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "You start to hydroplane. What should you do?",
+    "options": ["Brake gently", "Accelerate to push water aside", "Release the accelerator"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Backing safely:",
+    "options": ["Rely only on mirrors", "Back toward driver’s side", "Look over passenger side shoulder"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When should you downshift for a curve?",
+    "options": ["After entering", "Before entering", "During the turn"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Convex mirrors:",
+    "options": ["Show objects as they are", "Make things appear closer", "Make things look smaller and farther away"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "After a hard brake, check:",
+    "options": ["The brake fluid", "Cargo and securement", "Trailer tire pressure"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The minimum tread depth on front tires is:",
+    "options": ["2/32 inch", "4/32 inch", "6/32 inch"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When driving through work zones, you should:",
+    "options": ["Slow down, obey signs, and watch workers", "Speed up to get out faster", "Change lanes quickly to avoid equipment"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If your brakes are wet after driving through deep water, you should:",
+    "options": ["Drive fast to dry them", "Pump the brakes while driving slowly", "Slam the brakes to shake off water"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When passing another vehicle:",
+    "options": ["Use the shoulder if necessary", "Leave extra room and return to lane only when safe", "Pass on hills if traffic is light"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Before turning left, you should:",
+    "options": ["Keep to the right of your lane", "Turn sharply to prevent off-tracking", "Reach the center of the intersection before turning"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When driving through a curve:",
+    "options": ["Brake throughout the curve", "Slow before entering, then accelerate slightly in the curve", "Downshift after entering"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Controlled braking is:",
+    "options": ["Applying full pressure until wheels lock", "Repeated light pedal taps", "Applying brakes hard without locking wheels"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The total weight of a single vehicle and its load is:",
+    "options": ["GCW (Gross Combination Weight)", "GAWR (Gross Axle Weight Rating)", "GVW (Gross Vehicle Weight)"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "On slippery roads, the most dangerous time is:",
+    "options": ["Right after it starts to rain", "During heavy downpour", "After the road has dried"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What’s true about overhead clearance?",
+    "options": ["It never changes", "Packed snow can increase clearance", "Repaved roads and cargo can affect clearance"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When loading cargo, it should be:",
+    "options": ["As high as possible", "Balanced and evenly distributed", "Placed toward the front only"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "A distracted driver is:",
+    "options": ["A safe driver", "At greater risk of a crash", "Someone who pays close attention to the road"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Retarders:",
+    "options": ["Are always safe on slick roads", "Help slow the vehicle and reduce brake wear", "Are emergency systems only"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "A commercial driver’s license (CDL) is required when:",
+    "options": ["Vehicle has a gross weight rating of 26,001 lbs or more", "Carrying 16+ passengers including the driver", "Transporting hazardous materials", "All of the above"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What’s the safest way to make a turn without swinging wide?",
+    "options": ["Drive into the left lane first", "Turn wide late, after starting the turn", "Start turning early"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When starting your trip:",
+    "options": ["Use the horn to test it", "Shift into reverse to warm the engine", "Inspect cargo and securement"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When driving at night, you should:",
+    "options": ["Use high beams whenever possible", "Look directly into oncoming headlights", "Keep the dome light on"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What is the purpose of the yellow diamond-shaped sign?",
+    "options": ["Regulation", "Warning", "Information"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When braking on a downgrade:",
+    "options": ["Use trailer brakes only", "Use proper braking technique", "Use cruise control to help"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What happens if cargo is not secured?",
+    "options": ["It may fall off", "It can shift and cause loss of control", "Both A and B"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "At 55 mph, it takes about ___ to stop a fully loaded truck.",
+    "options": ["200 feet", "300 feet", "More than 400 feet"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Hydroplaning can occur at:",
+    "options": ["Any speed", "30 mph or less", "Speeds above 40 mph on wet roads"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Which is true about aggressive driving?",
+    "options": ["It’s a common way to handle stress", "It improves safety", "It’s dangerous and illegal"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Escape ramps are used:",
+    "options": ["To avoid traffic", "If your brakes fail on a downgrade", "For emergency vehicles only"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Using the road shoulder:",
+    "options": ["Is legal for passing", "Helps make tight turns", "Is illegal unless directed"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What’s the first step in a pre-trip inspection?",
+    "options": ["Drain the air tanks", "Start the engine", "Review the last inspection report"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When parking on a hill:",
+    "options": ["Leave the transmission in neutral", "Use the parking brake and turn wheels correctly", "Use headlights as warning lights"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "To prevent drowsiness:",
+    "options": ["Keep the cab warm", "Drink coffee only", "Get enough sleep before driving"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When using a fire extinguisher, you should:",
+    "options": ["Spray directly into the flames", "Aim at the base of the fire", "Open all cab windows first"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Backing is:",
+    "options": ["Always dangerous", "Best done quickly", "Unnecessary if you plan routes well"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "At railroad crossings, you should:",
+    "options": ["Cross quickly without stopping", "Stop within 15–50 feet if required", "Pass slowly in the left lane"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If stopped on a hill, how do you start moving without rolling back?",
+    "options": ["Use the clutch quickly", "Partially engage the clutch and release brake", "Let it roll a little and accelerate"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "How do you test the parking brake?",
+    "options": ["Release the air brakes", "Apply parking brake and gently pull forward", "Pump brakes until they lock"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "You should use low beams:",
+    "options": ["When driving in fog or heavy snow", "Only during the day", "On dark rural roads with no traffic"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Which is true about overhead clearance?",
+    "options": ["It is always posted", "It can change with road surface and load", "It doesn’t affect vehicle height"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Tire failure signs include:",
+    "options": ["Vibration, loud bang, steering pull", "Smooth steering and silence", "Slight pull to the right only"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Why do many large vehicles use air brakes?",
+    "options": ["They’re cheaper", "Air can’t leak", "They’re more reliable for heavy loads"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What should you do when crossing tracks with poor traction?",
+    "options": ["Speed up", "Downshift before the tracks", "Stop on the tracks to shift"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "On slippery roads:",
+    "options": ["Brake hard to stop quickly", "Use gentle pressure and increase following distance", "Drive faster to reduce time on the road"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Brake fade happens when:",
+    "options": ["Brakes are cold", "Brakes are not used", "Brakes overheat and lose effectiveness"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What affects how much you can see at night?",
+    "options": ["Weather conditions", "Speed", "Both A and B"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What’s the most important reason to inspect your vehicle?",
+    "options": ["To comply with company rules", "Safety for yourself and others", "To avoid getting a ticket"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "After stopping for a break during your trip, you should:",
+    "options": ["Continue immediately", "Walk around and inspect the vehicle", "Only check tires"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "In emergencies, it’s best to:",
+    "options": ["React quickly and smoothly", "Slam the brakes and steer sharply", "Honk and hope for the best"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What’s the best way to remember safe driving techniques?",
+    "options": ["Drive aggressively", "Practice defensive driving", "Watch other drivers and copy them"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If an oncoming driver drifts into your lane, you should:",
+    "options": ["Swerve left", "Blow your horn and brake", "Turn toward the vehicle"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "After completing a turn, you should:",
+    "options": ["Shift up and accelerate quickly", "Check mirrors and adjust as needed", "Change lanes immediately"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What does the “No-Zone” refer to?",
+    "options": ["A restricted highway", "Blind spots around a truck", "A weight-limited area"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If you’re unsure whether to pass:",
+    "options": ["Speed up and try it", "Wait until you’re sure it’s safe", "Flash your lights and go around"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What’s the most important thing during a tire blowout?",
+    "options": ["Brake immediately", "Steer firmly and stay in your lane", "Speed up to control the vehicle"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When should you use your horn?",
+    "options": ["When passing another vehicle", "To warn others or avoid accidents", "In city traffic"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "How should you park with a manual transmission?",
+    "options": ["Leave it in reverse", "Leave it in neutral", "Leave it in low gear or reverse"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What’s the safest way to check what’s behind you?",
+    "options": ["Use mirrors only", "Turn and look if possible", "Ask someone to check"],
+    "answer": 0
+  }
+
+]
