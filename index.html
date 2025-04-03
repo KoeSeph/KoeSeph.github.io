@@ -3,7 +3,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mini Quiz Bot with Progress Bar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAWD CDL Practice Test</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -11,12 +12,12 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding-top: 40px;
+      padding: 20px;
       color: #333;
     }
     #quiz-container {
       background: #ffffff;
-      padding: 30px;
+      padding: 20px;
       border-radius: 16px;
       box-shadow: 0 8px 24px rgba(0,0,0,0.1);
       width: 100%;
@@ -24,7 +25,7 @@
       transition: all 0.3s ease-in-out;
     }
     .question {
-      font-size: 20px;
+      font-size: 18px;
       margin-bottom: 20px;
       font-weight: bold;
     }
@@ -37,6 +38,7 @@
       margin: 8px 0;
       cursor: pointer;
       transition: background 0.3s, transform 0.2s;
+      font-size: 16px;
     }
     .option:hover {
       background: #bee3f8;
@@ -46,6 +48,7 @@
       margin-top: 20px;
       font-weight: bold;
       text-align: left;
+      font-size: 16px;
     }
     #quiz-select {
       margin-bottom: 20px;
@@ -53,6 +56,8 @@
       padding: 8px 12px;
       border-radius: 8px;
       border: 1px solid #ccc;
+      width: 100%;
+      max-width: 500px;
     }
     h3 {
       color: #2b6cb0;
@@ -68,6 +73,7 @@
       padding: 10px;
       border-left: 4px solid #63b3ed;
       border-radius: 4px;
+      font-size: 14px;
     }
     hr {
       border: none;
@@ -89,6 +95,21 @@
       width: 0%;
       background: linear-gradient(90deg, #63b3ed, #4299e1);
       transition: width 0.4s ease-in-out;
+    }
+    @media (max-width: 480px) {
+      .question {
+        font-size: 16px;
+      }
+      .option {
+        font-size: 14px;
+        padding: 10px;
+      }
+      #score {
+        font-size: 14px;
+      }
+      h3 {
+        font-size: 16px;
+      }
     }
   </style>
 </head>
@@ -128,74 +149,68 @@
     const progressBar = document.getElementById('progress-bar');
 
     quizSelect.addEventListener('change', async () => {
-  const file = quizSelect.value;
-  currentQuizName = file;
+      const file = quizSelect.value;
+      currentQuizName = file;
 
-  if (file === 'random') {
-    // Load all quiz files and merge questions
-    const quizFiles = [
-      "PracticeTestC-1.json",
-      "PracticeTestC-2.json",
-      "PracticeTestB-1.json",
-      "PracticeTestB-2.json",
-      "PracticeTestB-3.json",
-      "PracticeTestA-2.json",
-      "PracticeTestA-3.json"
-    ];
+      if (file === 'random') {
+        const quizFiles = [
+          "PracticeTestC-1.json",
+          "PracticeTestC-2.json",
+          "PracticeTestB-1.json",
+          "PracticeTestB-2.json",
+          "PracticeTestB-3.json",
+          "PracticeTestA-2.json",
+          "PracticeTestA-3.json"
+        ];
+        try {
+          const allQuestions = [];
+          for (const quizFile of quizFiles) {
+            const res = await fetch(quizFile);
+            const data = await res.json();
+            allQuestions.push(...data);
+          }
+          const shuffled = allQuestions.sort(() => 0.5 - Math.random());
+          questions = shuffled.slice(0, 30);
 
-    try {
-      const allQuestions = [];
-      for (const quizFile of quizFiles) {
-        const res = await fetch(quizFile);
-        const data = await res.json();
-        allQuestions.push(...data);
-      }
+          current = 0;
+          score = 0;
+          missedQuestions = [];
+          scoreEl.textContent = "";
+          questionEl.textContent = "";
+          optionsEl.innerHTML = "";
+          quizContainer.style.display = 'block';
+          updateProgress();
+          showQuestion();
 
-      // Randomly select 30 unique questions
-      const shuffled = allQuestions.sort(() => 0.5 - Math.random());
-      questions = shuffled.slice(0, 30);
+        } catch (err) {
+          console.error("Error loading random quiz:", err);
+          alert("Failed to load random quiz.");
+        }
 
-      current = 0;
-      score = 0;
-      missedQuestions = [];
-      scoreEl.textContent = "";
-      questionEl.textContent = "";
-      optionsEl.innerHTML = "";
-      quizContainer.style.display = 'block';
-      updateProgress();
-      showQuestion();
-
-    } catch (err) {
-      console.error("Error loading random quiz:", err);
-      alert("Failed to load random quiz.");
-    }
-
-  } else {
-    // Load a normal quiz
-    try {
-      const res = await fetch(file);
-      questions = await res.json();
-
-      if (Array.isArray(questions)) {
-        current = 0;
-        score = 0;
-        missedQuestions = [];
-        scoreEl.textContent = "";
-        questionEl.textContent = "";
-        optionsEl.innerHTML = "";
-        quizContainer.style.display = 'block';
-        updateProgress();
-        showQuestion();
       } else {
-        alert("Couldn't load questions correctly.");
-      }
-    } catch (err) {
-      console.error("Error details:", err);
-      alert("Error loading quiz file.");
-    }
-  }
-});
+        try {
+          const res = await fetch(file);
+          questions = await res.json();
 
+          if (Array.isArray(questions)) {
+            current = 0;
+            score = 0;
+            missedQuestions = [];
+            scoreEl.textContent = "";
+            questionEl.textContent = "";
+            optionsEl.innerHTML = "";
+            quizContainer.style.display = 'block';
+            updateProgress();
+            showQuestion();
+          } else {
+            alert("Couldn't load questions correctly.");
+          }
+        } catch (err) {
+          console.error("Error details:", err);
+          alert("Error loading quiz file.");
+        }
+      }
+    });
 
     function updateProgress() {
       const percent = ((current / questions.length) * 100).toFixed(1);
