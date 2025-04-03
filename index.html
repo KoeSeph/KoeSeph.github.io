@@ -1,49 +1,94 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mini Quiz Bot</title>
+  <title>Mini Quiz Bot with Progress Bar</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: #f0f2f5;
+      background: linear-gradient(135deg, #fc221c, #fc221c);
       display: flex;
       flex-direction: column;
       align-items: center;
       padding-top: 40px;
+      color: #333;
     }
     #quiz-container {
-      background: white;
+      background: #ffffff;
       padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
       width: 100%;
-      max-width: 400px;
+      max-width: 500px;
+      transition: all 0.3s ease-in-out;
     }
     .question {
-      font-size: 18px;
-      margin-bottom: 15px;
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-weight: bold;
     }
     .option {
       display: block;
-      background: #e0e0e0;
-      border: none;
-      border-radius: 5px;
-      padding: 10px;
-      margin: 5px 0;
+      background: #e0f2ff;
+      border: 2px solid #90cdf4;
+      border-radius: 8px;
+      padding: 12px;
+      margin: 8px 0;
       cursor: pointer;
-      transition: background 0.3s;
+      transition: background 0.3s, transform 0.2s;
     }
     .option:hover {
-      background: #d4d4d4;
+      background: #bee3f8;
+      transform: scale(1.02);
     }
     #score {
       margin-top: 20px;
       font-weight: bold;
-      text-align: center;
+      text-align: left;
     }
     #quiz-select {
       margin-bottom: 20px;
+      font-size: 16px;
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    h3 {
+      color: #2b6cb0;
+      font-size: 18px;
+      margin-top: 24px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 12px;
+      background: #f9fafb;
+      padding: 10px;
+      border-left: 4px solid #63b3ed;
+      border-radius: 4px;
+    }
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #ccc;
+      margin: 20px 0;
+    }
+    #progress-container {
+      width: 100%;
+      height: 10px;
+      background-color: #e2e8f0;
+      border-radius: 5px;
+      overflow: hidden;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    #progress-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #63b3ed, #4299e1);
+      transition: width 0.4s ease-in-out;
     }
   </style>
 </head>
@@ -57,9 +102,11 @@
     <option value="PracticeTestB-3.json">B-3</option>
     <option value="PracticeTestA-2.json">A-2</option>
     <option value="PracticeTestA-3.json">A-3</option>
+    <option value="random">🎲 Random General Quiz</option>
   </select>
 
   <div id="quiz-container" style="display:none">
+    <div id="progress-container"><div id="progress-bar"></div></div>
     <div class="question" id="question"></div>
     <div id="options"></div>
     <div id="score"></div>
@@ -69,41 +116,116 @@
     let questions = [];
     let current = 0;
     let score = 0;
+    let missedQuestions = [];
+    let completedQuizzes = [];
+    let currentQuizName = '';
 
     const questionEl = document.getElementById('question');
     const optionsEl = document.getElementById('options');
     const scoreEl = document.getElementById('score');
     const quizContainer = document.getElementById('quiz-container');
     const quizSelect = document.getElementById('quiz-select');
+    const progressBar = document.getElementById('progress-bar');
 
     quizSelect.addEventListener('change', async () => {
   const file = quizSelect.value;
-  try {
-    const res = await fetch(file);
-    questions = await res.json();
+  currentQuizName = file;
 
-    if (Array.isArray(questions)) {
+  if (file === 'random') {
+    // Load all quiz files and merge questions
+    const quizFiles = [
+      "PracticeTestC-1.json",
+      "PracticeTestC-2.json",
+      "PracticeTestB-1.json",
+      "PracticeTestB-2.json",
+      "PracticeTestB-3.json",
+      "PracticeTestA-2.json",
+      "PracticeTestA-3.json"
+    ];
+
+    try {
+      const allQuestions = [];
+      for (const quizFile of quizFiles) {
+        const res = await fetch(quizFile);
+        const data = await res.json();
+        allQuestions.push(...data);
+      }
+
+      // Randomly select 30 unique questions
+      const shuffled = allQuestions.sort(() => 0.5 - Math.random());
+      questions = shuffled.slice(0, 30);
+
       current = 0;
       score = 0;
+      missedQuestions = [];
       scoreEl.textContent = "";
       questionEl.textContent = "";
       optionsEl.innerHTML = "";
       quizContainer.style.display = 'block';
+      updateProgress();
       showQuestion();
-    } else {
-      alert("Couldn't load questions correctly.");
+
+    } catch (err) {
+      console.error("Error loading random quiz:", err);
+      alert("Failed to load random quiz.");
     }
-  } catch (err) {
-    console.error("Error details:", err);
-    alert("Error loading quiz file.");
+
+  } else {
+    // Load a normal quiz
+    try {
+      const res = await fetch(file);
+      questions = await res.json();
+
+      if (Array.isArray(questions)) {
+        current = 0;
+        score = 0;
+        missedQuestions = [];
+        scoreEl.textContent = "";
+        questionEl.textContent = "";
+        optionsEl.innerHTML = "";
+        quizContainer.style.display = 'block';
+        updateProgress();
+        showQuestion();
+      } else {
+        alert("Couldn't load questions correctly.");
+      }
+    } catch (err) {
+      console.error("Error details:", err);
+      alert("Error loading quiz file.");
+    }
   }
 });
 
+
+    function updateProgress() {
+      const percent = ((current / questions.length) * 100).toFixed(1);
+      progressBar.style.width = percent + '%';
+    }
+
     function showQuestion() {
+      updateProgress();
+
       if (current >= questions.length) {
         questionEl.textContent = "Quiz complete!";
         optionsEl.innerHTML = "";
-        scoreEl.textContent = `You scored ${score} out of ${questions.length}`;
+        scoreEl.innerHTML = `You scored ${score} out of ${questions.length}`;
+
+        if (!completedQuizzes.includes(currentQuizName)) {
+          completedQuizzes.push(currentQuizName);
+        }
+
+        if (missedQuestions.length > 0) {
+          let reviewHTML = '<h3>Review Missed Questions:</h3><ul>';
+          missedQuestions.forEach(m => {
+            reviewHTML += `<li><strong>Q:</strong> ${m.question}<br><strong>Your answer:</strong> ${m.yourAnswer}<br><strong>Correct answer:</strong> ${m.correctAnswer}</li>`;
+          });
+          reviewHTML += '</ul>';
+          scoreEl.innerHTML += reviewHTML;
+        } else {
+          scoreEl.innerHTML += `<br><strong>Perfect score! 🎉</strong>`;
+        }
+
+        scoreEl.innerHTML += `<hr><strong>Completed quizzes this session:</strong><br>${completedQuizzes.map(name => name.replace('.json', '')).join(', ')}`;
         return;
       }
 
@@ -116,7 +238,15 @@
         btn.textContent = opt;
         btn.className = 'option';
         btn.onclick = () => {
-          if (idx === q.answer) score++;
+          if (idx === q.answer) {
+            score++;
+          } else {
+            missedQuestions.push({
+              question: q.question,
+              yourAnswer: q.options[idx],
+              correctAnswer: q.options[q.answer]
+            });
+          }
           current++;
           showQuestion();
         };
