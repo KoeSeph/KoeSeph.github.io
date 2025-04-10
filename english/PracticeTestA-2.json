@@ -1,0 +1,288 @@
+[
+  {
+    "question": "Under ideal conditions, a truck with air brakes going 55 mph requires a stopping distance of:",
+    "options": ["Less than 100 feet", "100–300 feet", "More than 300 feet"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "If your truck’s air compressor has its own oil supply, when should you first check the oil level?",
+    "options": ["Immediately after stopping", "During your first en route inspection", "Before driving"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "If your truck has a dual air system and one system is low on pressure:",
+    "options": ["The brake drums will not be fully pressurized", "The slack adjusters are improperly set", "Either the front or rear brakes will not be fully operational"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "How do you check if spring brakes come on when air pressure drops below a certain level?",
+    "options": ["Park on an incline, drain air, set parking brake, and check for movement", "Park level, chock wheels, release parking brake, shut engine off, press and release brake pedal repeatedly", "Park level, build normal air pressure, release parking brake, move truck slowly, apply brakes with pedal"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "The supply pressure gauge shows how much pressure:",
+    "options": ["Is going to the brake chambers", "Is in the air tanks", "You’ve used on this trip"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "The modulating control valve allows you to control the:",
+    "options": ["Spring brakes", "Front brakes", "Air pressure applied during braking"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "What’s the most important thing to do when a low air pressure warning comes on?",
+    "options": ["Stop and safely park as soon as possible", "Upshift", "Downshift"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If your vehicle has an alcohol evaporator, it helps:",
+    "options": ["Remove alcohol condensation", "Reduce ice in brake valves during cold weather", "Eliminate the need for daily tank draining"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "If your bus has a dual parking control valve, you can use a separate tank to:",
+    "options": ["Balance the service brake system", "Apply more brake pressure", "Release spring parking brakes to move a short distance"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "An air brake system is fully charged at:",
+    "options": ["100 psi", "75 psi", "125 psi"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "Drivers must see/hear a warning before air pressure drops below:",
+    "options": ["50 psi", "80 psi", "60 psi"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "On a steep downgrade, if your safe speed is 40 mph, you should brake until your speed is:",
+    "options": ["30 mph", "35 mph", "25 mph"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "Repeatedly pressing and releasing (fanning) the brakes can cause:",
+    "options": ["A loss of brake air pressure", "No change in pressure", "A buildup of brake pressure"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Emergency controlled braking means:",
+    "options": ["Brake hard without locking wheels", "Use hand valve briefly, then apply pedal", "Brake hard until wheels lock, release, then reapply when rolling"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The application pressure gauge shows how much pressure you:",
+    "options": ["Have in the air tanks", "Have in the modulating valve", "Are applying to the brakes"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "When is it okay to leave a truck without applying the parking brake or chocking wheels?",
+    "options": ["During a pre-trip inspection", "If you’ll only be away for a few minutes", "Never"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "All air brake-equipped vehicles must have:",
+    "options": ["An air use gauge", "A supply pressure gauge", "A backup hydraulic system"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "Spring brakes will engage when air pressure drops below:",
+    "options": ["20 psi", "60 psi", "100 psi"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Air brake lag distance at 55 mph adds approximately:",
+    "options": ["52 feet", "12 feet", "32 feet"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "The S-cam:",
+    "options": ["Controls airflow to brake chambers", "Forces brake shoes against brake drum", "Adjusts slack adjuster play"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "If your vehicle has an alcohol evaporator, in cold weather you should:",
+    "options": ["Change the alcohol daily", "Check and refill the alcohol level", "Check the oil for alcohol"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "In good condition, the air compressor should begin pumping at:",
+    "options": ["125 psi", "150 psi", "100 psi"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "Without automatic tank drains, how often should you drain air tanks?",
+    "options": ["Every four hours", "End of each driving day", "Once per week"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "For dual air systems, each system should reach at least:",
+    "options": ["100 psi", "120 psi", "80 psi"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If spring brakes are on, when should you press the brake pedal?",
+    "options": ["Only downhill", "On slippery roads", "Never"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "The system that applies and releases brakes when the pedal is pressed is:",
+    "options": ["Emergency brake system", "Parking brake system", "Service brake system"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "A supply pressure gauge shows air in the:",
+    "options": ["Air tanks", "Tractor brake lines", "Trailer brake lines"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Normally, to engage the parking brakes, the driver must:",
+    "options": ["Ensure the system is fully pressurized", "Turn off the engine", "Let air out of the system"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "To check manual slack adjusters, park on:",
+    "options": ["Level ground, drain air, adjust before movement", "Level ground, chock wheels, release parking brakes", "Level ground, apply parking brake, then press service brake"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "In a healthy dual system, pressure should rise from 85 to 100 psi within:",
+    "options": ["30 seconds", "60 seconds", "45 seconds"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "Overusing brakes causes heat that can lead to:",
+    "options": ["Modulating valve wear", "Plugged brake lines", "Brake fade or failure"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "Air brake stopping distance is longer than hydraulic because of:",
+    "options": ["Effective braking distance", "Reaction distance", "Brake lag distance"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "To test service brakes:",
+    "options": ["Brake firmly while moving forward", "Brake while moving backward", "Put vehicle in low, press service brake, gently pull forward"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Why drain compressed air tanks?",
+    "options": ["Boiling point lowers brake power", "Compressor cools too much", "Water can freeze and cause failure"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "The air compressor should stop pumping at:",
+    "options": ["150 psi", "100 psi", "125 psi"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "Excessive brake use leads to overheating and:",
+    "options": ["Expanding brake drums", "Increased drum-lining contact", "Poor S-cam adjustment"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If low air pressure warning activates, first:",
+    "options": ["Stop and park safely", "Adjust brake pedal", "Open air supply valve"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "To check service brakes:",
+    "options": ["Park level, chock wheels, engine off, engage brake", "Park level, build pressure, release parking brake, move at 5 mph, press brake", "Park on incline, drain air, set parking brake, check movement"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "Most common foundation brake on heavy vehicles:",
+    "options": ["S-cam drum", "Wedge drum", "Disc brake"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Parking/emergency brakes can legally be held by:",
+    "options": ["Spring pressure", "Fluid pressure", "Air pressure"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Safety valve is set to release pressure at:",
+    "options": ["100 psi", "50 psi", "150 psi"],
+    "answer": 2
+  }
+] 
+

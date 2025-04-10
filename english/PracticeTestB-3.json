@@ -1,0 +1,141 @@
+[
+  {
+    "question": "You are hooking a tractor to a semi-trailer and have backed up but are not yet under it. What should you do before backing under the trailer?",
+    "options": ["Hook up the electrical service cable", "Hook up the emergency and service air lines", "Connect the ground cable", "Nothing — back up and secure the fifth wheel to the trailer"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "After pushing in the trailer supply valve, you should not move the tractor until the whole system is:",
+    "options": ["Charging", "At normal pressure", "Bled down to half the maximum pressure", "Between 50 and 60 psi"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "There are two things that a driver can do to prevent a rollover. They are (1) keep the cargo as close to the ground as possible, and:",
+    "options": ["Make sure the brakes are adjusted properly", "Keep both hands on the steering wheel", "Drive slowly around turns", "Keep the fifth wheel free-play loose"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "When pulling a trailer, you should:",
+    "options": ["Make sudden movements with the steering wheel", "Steer gently and smoothly", "Slow down to a safe speed after entering a turn", "All of the above"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "The fifth wheel locking lever is not locked after the jaws close around the kingpin. This means that:",
+    "options": ["The trailer will not swing on the fifth wheel", "You cannot set the fifth wheel for proper weight distribution", "The hand valve is released and you may drive away", "The coupling is not correct and should be corrected before driving the coupled unit"],
+    "answer": 3
+  }, 
+
+
+  {
+    "question": "A driver crosses the air lines when hooking up to an old trailer. What will happen?",
+    "options": ["The hand valve will apply the tractor brakes instead of the trailer brakes", "The brake pedal will work the trailer spring brakes instead of the trailer service brakes", "If the trailer has no spring brakes, the driver could drive away but wouldn’t have trailer brakes", "The brake lights will not come on when the brake pedal is pressed"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "After coupling a semi-trailer, how should you crank up the front trailer supports (dollies)?",
+    "options": ["Raised halfway with the crank handle secured", "Raised halfway with the crank handle removed", "Fully raised with the crank handle secured", "Three turns off the top with the crank handle secured in its bracket"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "Air brake equipped trailers made before 1975:",
+    "options": ["Are not required to have spring brakes", "Are easier to stop than newer trailers because they are heavier", "Usually need a glad hand converter", "Cannot be operated on interstate highways"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The hand valve should only be used:",
+    "options": ["When you park at loading docks", "When you are parking for less than one hour", "When parking on a steep grade", "To test the trailer brakes"],
+    "answer": 3
+  }, 
+
+
+  {
+    "question": "Air lines on a combination vehicle are often color-coded to avoid confusion. The emergency line is:",
+    "options": ["Red", "Black", "Blue", "Orange"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "How do you supply air to the air tank on the trailer?",
+    "options": ["Pushing in the trailer air supply knob/valve", "Pulling out the trailer air supply knob/valve", "Connecting the emergency line glad hand", "Applying the trolley valve"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "In normal driving, some drivers use the trolley (hand) valve before the brake pedal. Which of these statements is true?",
+    "options": ["It should never be done", "It results in less skidding than using the brake pedal alone", "It lets the driver steer with both hands", "It is the best way to brake in a straight line"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "When backing under the trailer, you should:",
+    "options": ["Use the lowest reverse gear", "Back the tractor slowly under the trailer", "Stop when the kingpin is locked into the fifth wheel", "All of the above"],
+    "answer": 3
+  }, 
+
+
+  {
+    "question": "When backing up under a trailer, you should line up:",
+    "options": ["About 15 degrees off the line of the trailer", "The right mirror along the right edge of the trailer", "Directly in front of the trailer", "To the far left of the trailer"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "_______ are coupling devices used to connect the service and emergency air lines from a truck or tractor to the trailer.",
+    "options": ["Clamps", "Shut-off valves", "Hand valves", "Glad hands"],
+    "answer": 3
+  }, 
+
+
+  {
+    "question": "After hooking up, you should check the fifth wheel connection by:",
+    "options": ["Driving away at 20 mph and pulling down the trailer hand valve", "Backing up with the trailer brakes released", "Pulling the tractor ahead sharply to release the trailer brakes", "Pulling the tractor ahead gently with the trailer brakes locked"],
+    "answer": 3
+  }, 
+
+
+  {
+    "question": "How often should you drain your vehicle’s trailer air tanks?",
+    "options": ["Daily", "Weekly", "Monthly", "Yearly"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The emergency air line supplies air to the trailer air tanks and:",
+    "options": ["Supplies air to the cab", "Controls the emergency brakes on combination vehicles", "Is coded with the color green to keep it from being confused with other lines", "All of the above"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "How much space should be between the upper and the lower fifth wheel plates?",
+    "options": ["About 1 inch", "About ¾ inch", "About ¼ inch", "None"],
+    "answer": 3
+  }, 
+
+
+  {
+    "question": "When not pulling a trailer, why is it a good idea to lock the glad hands together or to a dummy coupler?",
+    "options": ["It keeps air from escaping", "The brake circuit becomes a secondary air tank", "It keeps dirt and water out of the lines", "All of the above"],
+    "answer": 2
+  } 
+
+]

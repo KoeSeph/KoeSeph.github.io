@@ -1,0 +1,211 @@
+[
+  {
+    "question": "Modern air brake systems combine three different systems. These systems are the service, parking, and ___ systems.",
+    "options": ["Emergency", "Foot", "Drum"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The driver must see a warning before air pressure in the service tanks falls below ___ psi.",
+    "options": ["40", "60", "80"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "The brake pedal in an air brake system:",
+    "options": ["Controls the speed of the air compressor", "Always needs to be held halfway during normal driving", "Controls the air pressure applied to the brakes"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "Air braking takes more time than hydraulic braking because air:",
+    "options": ["Brakes use different brake drums", "Takes more time to flow through the lines than hydraulic fluid", "Is always leaking through the air line fittings"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "If your vehicle has an alcohol evaporator, its purpose is to:",
+    "options": ["Rid the wet tank of alcohol that condenses at the bottom", "Eliminate the need for daily tank draining", "Reduce the risk of ice forming in air brake valves during cold weather"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "If your truck has dual parking control valves, you can use pressure from a separate tank to:",
+    "options": ["Release the spring emergency parking brakes to move a short distance", "Apply more brake pressure if the main tank is low", "Stay parked twice as long with your service air pressure"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "To check the free play of manual slack adjusters on S-cam brakes, park the vehicle:",
+    "options": ["On level ground with the parking brake on, then apply the service brake", "On level ground, chock the wheels, and turn off the parking brake", "On level ground and drain air pressure before adjusting"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "When a low air pressure warning comes on, the first thing to do is:",
+    "options": ["Stop and safely park the vehicle as soon as possible", "Shift to the next highest gear", "Open the air supply control valve"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The air compressor governor controls:",
+    "options": ["When the brake chambers release pressure", "Air pressure applied to the brakes", "When air is pumped into the tanks"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "The braking power of spring brakes:",
+    "options": ["Is not affected by the condition of the service brakes", "Can only be tested by trained brake service personnel", "Depends on whether the service brakes are in adjustment"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "All vehicles equipped with air brakes must have:",
+    "options": ["A hydraulic backup system", "A supply pressure gauge", "An air application gauge"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "If you must make an emergency stop, you should brake in a way that:",
+    "options": ["Uses the full power of the brakes to lock them", "Allows you to steer and keeps the vehicle in a straight line", "Uses the hand brake first"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "If you don’t have automatic tank drains, how often should you drain the oil and water from compressed air tanks?",
+    "options": ["At the end of each day of driving", "Once a week", "Before each day of driving"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "The application pressure gauge shows how much air pressure you:",
+    "options": ["Have used during this trip", "Have in the air tanks", "Are applying to the brakes"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "Your brakes are fading if:",
+    "options": ["You must press harder on the brake pedal to control speed on a downgrade", "The brake pedal feels spongy", "You release the pedal and the vehicle speeds up"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If your vehicle has an alcohol evaporator, during cold weather you should:",
+    "options": ["Check the alcohol level daily and refill if necessary", "Change the alcohol", "Clean the air filter with alcohol"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Why should you drain water from compressed air tanks?",
+    "options": ["The low boiling point of water reduces braking power", "Water can freeze and cause brake failure", "To keep the air compressor clean"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "If the low air pressure warning comes on in a dual air brake system, you should:",
+    "options": ["Stop safely and fix the system before continuing", "Reduce speed and test the remaining system while driving", "Reduce speed and drive to the nearest repair shop"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "During normal driving, spring brakes are usually held back by:",
+    "options": ["Bolts or clamps", "Air pressure", "Spring pressure"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "In vehicles with air brakes, parking brakes should be used:",
+    "options": ["As little as possible", "Any time the vehicle is parked", "To help hold speed when going downhill"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "Emergency stab braking is when you:",
+    "options": ["Press hard on the brake pedal and apply the hand valve fully", "Apply the hand valve for one second, then press the brake", "Brake hard, release if wheels lock, then reapply when rolling again"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "A straight truck air brake system should not leak more than ___ psi per minute (engine off, brakes released):",
+    "options": ["4", "3", "2"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "Air loss for a straight truck (engine off, brakes on) should not exceed:",
+    "options": ["3 psi in 30 seconds", "3 psi in 45 seconds", "3 psi in one minute"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "The supply pressure gauge shows:",
+    "options": ["How much air you’ve used", "Pressure in the air tanks", "Air going to the brake chambers"],
+    "answer": 1
+  }, 
+
+
+  {
+    "question": "The brake system that applies and releases brakes when the pedal is used is the:",
+    "options": ["Service system", "Parking system", "Drum system"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "Before driving a vehicle with a dual air system, let the compressor build to at least:",
+    "options": ["125 psi", "60 psi", "100 psi"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "Total stopping distance for air brakes is longer than for hydraulic brakes due to:",
+    "options": ["Perception distance", "Reaction distance", "Brake lag distance"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "The most common foundation brake on heavy vehicles is the:",
+    "options": ["Disc brake", "Wedge drum brake", "S-cam drum brake"],
+    "answer": 2
+  }, 
+
+
+  {
+    "question": "Emergency brakes should activate automatically when pressure falls to:",
+    "options": ["20–45 psi", "100–125 psi", "60–85 psi"],
+    "answer": 0
+  }, 
+
+
+  {
+    "question": "If the air compressor leaks, what keeps air in the tanks?",
+    "options": ["One-way check valve", "Emergency relay valve", "Tractor protection valve"],
+    "answer": 0
+  }
+
+]
