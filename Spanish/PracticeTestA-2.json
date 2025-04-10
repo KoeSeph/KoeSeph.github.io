@@ -1,0 +1,371 @@
+[
+  {
+    "question": "En condiciones ideales, un camión con frenos de aire a 55 mph requiere una distancia de frenado de:",
+    "options": [
+      "Menos de 100 pies",
+      "100–300 pies",
+      "Más de 300 pies"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Si el compresor de aire de tu camión tiene su propio suministro de aceite, ¿cuándo debes revisar el nivel de aceite por primera vez?",
+    "options": [
+      "Inmediatamente después de detenerse",
+      "Durante tu primera inspección en ruta",
+      "Antes de conducir"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Si tu camión tiene un sistema de aire dual y uno de los sistemas tiene baja presión:",
+    "options": [
+      "Los tambores de freno no estarán completamente presurizados",
+      "Los ajustadores de holgura están mal configurados",
+      "Los frenos delanteros o traseros no estarán completamente operativos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cómo verificas si los frenos de resorte se activan cuando la presión de aire cae por debajo de cierto nivel?",
+    "options": [
+      "Estaciona en una pendiente, drena el aire, aplica el freno de estacionamiento y verifica el movimiento",
+      "Estaciona en terreno nivelado, calza las ruedas, libera el freno de estacionamiento, apaga el motor, presiona y suelta el pedal de freno repetidamente",
+      "Estaciona en terreno nivelado, genera presión de aire normal, libera el freno de estacionamiento, mueve el camión lentamente, aplica los frenos con el pedal"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El manómetro de presión de suministro muestra cuánta presión:",
+    "options": [
+      "Va a las cámaras de freno",
+      "Está en los tanques de aire",
+      "Has utilizado en este viaje"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "La válvula de control moduladora te permite controlar los:",
+    "options": [
+      "Frenos de resorte",
+      "Frenos delanteros",
+      "Presión de aire aplicada durante el frenado"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué es lo más importante que debes hacer cuando se enciende la advertencia de baja presión de aire?",
+    "options": [
+      "Detenerse y estacionar de manera segura lo antes posible",
+      "Subir de marcha",
+      "Bajar de marcha"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Si tu vehículo tiene un evaporador de alcohol, este ayuda a:",
+    "options": [
+      "Eliminar la condensación del alcohol",
+      "Reducir el hielo en las válvulas de freno durante el clima frío",
+      "Eliminar la necesidad de drenar los tanques diariamente"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Si tu autobús tiene una válvula de control de estacionamiento dual, puedes usar un tanque separado para:",
+    "options": [
+      "Equilibrar el sistema de frenos de servicio",
+      "Aplicar más presión de freno",
+      "Liberar los frenos de estacionamiento de resorte para moverte una corta distancia"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Un sistema de frenos de aire está completamente cargado a:",
+    "options": [
+      "100 psi",
+      "75 psi",
+      "125 psi"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Los conductores deben ver/escuchar una advertencia antes de que la presión de aire baje de:",
+    "options": [
+      "50 psi",
+      "80 psi",
+      "60 psi"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "En una pendiente pronunciada, si tu velocidad segura es 40 mph, debes frenar hasta que tu velocidad sea:",
+    "options": [
+      "30 mph",
+      "35 mph",
+      "25 mph"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Presionar y soltar repetidamente (ventilar) los frenos puede causar:",
+    "options": [
+      "Pérdida de presión de aire de freno",
+      "Sin cambio en la presión",
+      "Acumulación de presión de freno"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Frenado controlado de emergencia significa:",
+    "options": [
+      "Frenar fuerte sin bloquear las ruedas",
+      "Usar brevemente la válvula manual, luego aplicar el pedal",
+      "Frenar fuerte hasta bloquear las ruedas, soltar, y reaplicar al rodar"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "El manómetro de presión de aplicación muestra cuánta presión:",
+    "options": [
+      "Hay en los tanques de aire",
+      "Hay en la válvula moduladora",
+      "Estás aplicando a los frenos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuándo está bien dejar un camión sin aplicar el freno de estacionamiento o calzar las ruedas?",
+    "options": [
+      "Durante una inspección previa al viaje",
+      "Si solo estarás fuera unos minutos",
+      "Nunca"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Todos los vehículos equipados con frenos de aire deben tener:",
+    "options": [
+      "Un manómetro de uso de aire",
+      "Un manómetro de presión de suministro",
+      "Un sistema hidráulico de respaldo"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Los frenos de resorte se activan cuando la presión de aire baja por debajo de:",
+    "options": [
+      "20 psi",
+      "60 psi",
+      "100 psi"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "La distancia de retardo de los frenos de aire a 55 mph añade aproximadamente:",
+    "options": [
+      "52 pies",
+      "12 pies",
+      "32 pies"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "La leva en S:",
+    "options": [
+      "Controla el flujo de aire a las cámaras de freno",
+      "Fuerza las zapatas de freno contra el tambor de freno",
+      "Ajusta el juego del ajustador automático"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Si tu vehículo tiene un evaporador de alcohol, en clima frío debes:",
+    "options": [
+      "Cambiar el alcohol diariamente",
+      "Revisar y rellenar el nivel de alcohol",
+      "Revisar el aceite por alcohol"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "En buen estado, el compresor de aire debe comenzar a bombear a:",
+    "options": [
+      "125 psi",
+      "150 psi",
+      "100 psi"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Sin drenajes automáticos de tanque, ¿con qué frecuencia debes drenar los tanques de aire?",
+    "options": [
+      "Cada cuatro horas",
+      "Al final de cada día de conducción",
+      "Una vez por semana"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Para sistemas de aire duales, cada sistema debe alcanzar al menos:",
+    "options": [
+      "100 psi",
+      "120 psi",
+      "80 psi"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Si los frenos de resorte están activados, ¿cuándo debes presionar el pedal del freno?",
+    "options": [
+      "Solo cuesta abajo",
+      "En caminos resbaladizos",
+      "Nunca"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El sistema que aplica y libera los frenos cuando se presiona el pedal es:",
+    "options": [
+      "Sistema de freno de emergencia",
+      "Sistema de freno de estacionamiento",
+      "Sistema de freno de servicio"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Un manómetro de presión de suministro muestra aire en los:",
+    "options": [
+      "Tanques de aire",
+      "Líneas de freno del tractor",
+      "Líneas de freno del remolque"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Normalmente, para activar los frenos de estacionamiento, el conductor debe:",
+    "options": [
+      "Asegurarse de que el sistema esté completamente presurizado",
+      "Apagar el motor",
+      "Liberar aire del sistema"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Para revisar ajustadores de holgura manuales, estaciona en:",
+    "options": [
+      "Terreno nivelado, drena aire, ajusta antes de moverte",
+      "Terreno nivelado, calza ruedas, libera frenos de estacionamiento",
+      "Terreno nivelado, aplica freno de estacionamiento, luego presiona freno de servicio"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En un sistema dual en buen estado, la presión debe subir de 85 a 100 psi dentro de:",
+    "options": [
+      "30 segundos",
+      "60 segundos",
+      "45 segundos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El uso excesivo de frenos causa calor que puede llevar a:",
+    "options": [
+      "Desgaste de la válvula moduladora",
+      "Líneas de freno obstruidas",
+      "Desvanecimiento o falla de frenos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "La distancia de frenado con frenos de aire es mayor que con frenos hidráulicos debido a:",
+    "options": [
+      "Distancia de frenado efectiva",
+      "Distancia de reacción",
+      "Distancia de retardo de freno"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Para probar los frenos de servicio:",
+    "options": [
+      "Frenar firmemente mientras se avanza",
+      "Frenar mientras se retrocede",
+      "Poner el vehículo en baja, presionar freno de servicio, avanzar suavemente"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Por qué se deben drenar los tanques de aire comprimido?",
+    "options": [
+      "El punto de ebullición baja la potencia de frenado",
+      "El compresor se enfría demasiado",
+      "El agua puede congelarse y causar fallas"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El compresor de aire debe dejar de bombear a:",
+    "options": [
+      "150 psi",
+      "100 psi",
+      "125 psi"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El uso excesivo de frenos conduce al sobrecalentamiento y:",
+    "options": [
+      "Expansión de los tambores de freno",
+      "Mayor contacto entre tambor y zapata",
+      "Mal ajuste de la leva en S"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Si se activa la advertencia de baja presión de aire, lo primero es:",
+    "options": [
+      "Detenerse y estacionar de forma segura",
+      "Ajustar el pedal del freno",
+      "Abrir la válvula de suministro de aire"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Para revisar los frenos de servicio:",
+    "options": [
+      "Estacionar nivelado, calzar ruedas, motor apagado, activar freno",
+      "Estacionar nivelado, generar presión, liberar freno de estacionamiento, avanzar a 5 mph, presionar freno",
+      "Estacionar en pendiente, drenar aire, activar freno de estacionamiento, revisar movimiento"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El freno de fundación más común en vehículos pesados es:",
+    "options": [
+      "Tambor con leva en S",
+      "Tambor de cuña",
+      "Freno de disco"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Los frenos de estacionamiento/emergencia pueden mantenerse legalmente por:",
+    "options": [
+      "Presión de resorte",
+      "Presión de fluido",
+      "Presión de aire"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "La válvula de seguridad está configurada para liberar presión a:",
+    "options": [
+      "100 psi",
+      "50 psi",
+      "150 psi"
+    ],
+    "answer": 2
+  }
+]

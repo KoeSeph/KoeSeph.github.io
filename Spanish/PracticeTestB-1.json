@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Mientras conduces, ¿cómo debes mirar hacia adelante?",
+    "options": [
+      "Mirar al lado derecho de la carretera",
+      "Mirar de un lado a otro, cerca y lejos",
+      "Mirar fijamente hacia adelante en todo momento",
+      "Todas las anteriores"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Cuando conduzcas de noche, debes:",
+    "options": [
+      "Usar siempre las luces altas",
+      "Observar la línea blanca sólida del lado izquierdo de la carretera",
+      "Ajustar tu velocidad para mantener la distancia de frenado dentro del campo de visión",
+      "Mantener las luces altas encendidas todo el tiempo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "La mayoría de los derrapes graves resultan de:",
+    "options": [
+      "Conducir demasiado rápido para las condiciones",
+      "Carga mal distribuida",
+      "No frenar con suficiente fuerza",
+      "Todas las anteriores"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué pueden causar los frenos mojados al aplicarlos?",
+    "options": [
+      "Tijera del remolque",
+      "Sobrecalentamiento de frenos",
+      "Hidroplaneo",
+      "Hidroplaneo si se viaja a más de 30 mph al frenar"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál es verdadera sobre los triángulos de emergencia reflectantes?",
+    "options": [
+      "Deben colocarse dentro de los 10 minutos después de detenerse",
+      "No son necesarios si las luces intermitentes funcionan",
+      "No son necesarios si el vehículo está completamente fuera de la carretera",
+      "No son necesarios si se detiene en una colina o curva"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Al conducir por zonas de construcción, debes:",
+    "options": [
+      "Acelerar rápidamente",
+      "Detenerte y cambiar a marcha baja",
+      "Estar atento a superficies irregulares",
+      "Reducir la velocidad solo si hay trabajadores cerca de la carretera"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Si tu vehículo se descompone en una autopista recta y plana de 4 carriles, coloca los triángulos de advertencia:",
+    "options": [
+      "10 pies detrás, 100 pies detrás y 100 pies adelante",
+      "10 pies detrás, 100 pies detrás y 200 pies detrás",
+      "100 pies, 200 pies y 300 pies detrás",
+      "50 pies, 100 pies y 200 pies detrás"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Por qué debes limitar el uso del claxon?",
+    "options": [
+      "Puede no funcionar con los frenos de aire activados",
+      "Puede asustar a otros conductores",
+      "Debes mantener ambas manos en el volante",
+      "El manual CDL dice que no es necesario"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué debes hacer con un vehículo que te sigue muy de cerca?",
+    "options": [
+      "Aumentar la distancia de seguimiento",
+      "Evitar cambios bruscos",
+      "Evitar parpadear las luces de freno",
+      "Todas las anteriores"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Cómo se debe cargar un vehículo?",
+    "options": [
+      "Mantener la carga equilibrada",
+      "Colocar el peso hacia adelante para tracción",
+      "Colocar el peso hacia atrás para mejor manejo",
+      "La colocación del peso no importa si es legal"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Si no estás seguro del espacio libre bajo un objeto:",
+    "options": [
+      "Asume que todos los espacios libres están bien",
+      "El espacio libre no importa en carreteras estatales/federales",
+      "Toma otra ruta",
+      "Todas las anteriores"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Frenado controlado significa:",
+    "options": [
+      "Frenar lo suficiente para bloquear las ruedas",
+      "Bloquear ruedas, soltar, volver a aplicar",
+      "Aplicar presión firme sin bloquear",
+      "Usado solo si no hay ABS"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Si una llanta revienta a 60 mph:",
+    "options": [
+      "Comenzar frenado ligero y controlado",
+      "Iniciar frenado por bombeo",
+      "Sujetar el volante firmemente, no frenar hasta reducir la velocidad",
+      "Aplicar frenado de emergencia"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál es verdadera?",
+    "options": [
+      "No deben usarse llantas con separación/cortes",
+      "Se permiten llantas no coincidentes",
+      "1/32\" de dibujo está bien para llantas de tracción",
+      "1/32\" de dibujo está bien para llantas directrices"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Por qué existen las regulaciones de materiales peligrosos?",
+    "options": [
+      "Para conductores/equipos seguros",
+      "Para comunicar riesgos",
+      "Para contener el producto",
+      "Todas las anteriores"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Cuál NO es verdadera sobre retroceder un CMV?",
+    "options": [
+      "Retroceder rápidamente hasta golpear el muelle",
+      "Usar espejos en ambos lados",
+      "Retroceder hacia el lado del conductor",
+      "B y C"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "El alcohol afecta:",
+    "options": [
+      "Coordinación muscular",
+      "Tiempo de reacción",
+      "Percepción de profundidad",
+      "Todas las anteriores"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Cuál es verdadera sobre conducción en clima frío?",
+    "options": [
+      "Las fugas de escape no son peligrosas",
+      "Los motores no se sobrecalientan por debajo de 32°F",
+      "La lejía mejora la tracción",
+      "Usar líquido limpiador con anticongelante"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Los carteles y etiquetas son para:",
+    "options": [
+      "Contención",
+      "Control de riesgos",
+      "Comunicación",
+      "Todas las anteriores"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "El frenado controlado se usa:",
+    "options": [
+      "Para mantenerse en línea al frenar",
+      "Para detenerse rápidamente",
+      "Solo con frenos hidráulicos",
+      "Solo con ABS"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Hidroplaneo es:",
+    "options": [
+      "Cuando un avión aterriza en una carretera",
+      "Sobrecalentamiento del radiador",
+      "Ocurre solo a altas velocidades",
+      "Cuando las ruedas pierden contacto por agua/lodo"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Si te siguen de cerca:",
+    "options": [
+      "Haz señas para que pasen",
+      "Aumenta tu distancia de seguimiento",
+      "Enciende las luces intermitentes",
+      "Frena bruscamente"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué puede causar un derrape?",
+    "options": [
+      "Conducir muy rápido",
+      "Frenar en exceso",
+      "Girar en exceso",
+      "Todas las anteriores"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Al usar un extintor:",
+    "options": [
+      "Acércate al fuego",
+      "Apunta a la base",
+      "Apunta a la parte superior",
+      "Todas las anteriores"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Si un inspector declara que tu vehículo es inseguro:",
+    "options": [
+      "Está fuera de servicio por 24 horas",
+      "Fuera de servicio por 48 horas",
+      "Fuera hasta que el transportista arregle",
+      "Fuera hasta que se repare"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Cambiar de marcha es importante porque:",
+    "options": [
+      "Mantiene el control",
+      "Mantiene el flujo de aceite",
+      "Mantiene el radiador frío",
+      "Mantiene la temperatura del motor"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "El frenado del motor es más fuerte cuando:",
+    "options": [
+      "Por encima de RPM del gobernador en marcha alta",
+      "Cerca del RPM del gobernador en marcha baja",
+      "Por encima del RPM del gobernador en marcha baja",
+      "Cerca del RPM del gobernador en marcha alta"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "El agua puede apagar:",
+    "options": [
+      "Fuegos eléctricos",
+      "Fuegos de diésel",
+      "Fuegos de gasolina",
+      "Fuegos de llantas"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Los espejos convexos:",
+    "options": [
+      "Hacen que las cosas se vean más grandes",
+      "Hacen que las cosas parezcan más cercanas",
+      "Ambas",
+      "Muestran un área más amplia"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Usa el claxon:",
+    "options": [
+      "Para espantar ciervos",
+      "Cuando un auto bloquea el paso",
+      "Para evitar una colisión",
+      "Al cambiar de carril"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Antes de entrar en una curva, debes:",
+    "options": [
+      "Reducir la velocidad a una segura",
+      "Aumentar la velocidad para más estabilidad",
+      "Detenerte completamente y avanzar lentamente",
+      "Todas las anteriores"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué sucede cuando una llanta revienta en carretera?",
+    "options": [
+      "Pierdes velocidad inmediatamente",
+      "Sientes una vibración",
+      "Escuchas un silbido",
+      "Se enciende señal de presión"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es el propósito de la inspección previa al viaje?",
+    "options": [
+      "Agregar 15 minutos al libro de registro",
+      "Para ser multado",
+      "Detectar problemas que puedan causar accidentes",
+      "Ver si puedes cargar 1000 libras más"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Cuando veas un peligro en el camino, debes:",
+    "options": [
+      "Girar y contragirar alrededor",
+      "Detenerte rápido y salir del camino",
+      "Detenerte y hacer señales desde atrás",
+      "Encender luces intermitentes o frenos"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Al conducir con niebla, debes:",
+    "options": [
+      "Aumentar velocidad",
+      "Detenerte a un lado",
+      "Usar luces bajas",
+      "Todas las anteriores"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Tu vehículo mide 40 pies y viajas a 50 mph. Distancia segura es:",
+    "options": [
+      "5 segundos",
+      "6 segundos",
+      "4 segundos",
+      "3 segundos"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Beber alcohol puede afectar tu:",
+    "options": [
+      "Juicio",
+      "Visión",
+      "Coordinación y tiempo de reacción",
+      "Todas las anteriores"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Conducción agresiva es:",
+    "options": [
+      "Conducir de forma egoísta o imprudente",
+      "Aceptable en horas pico",
+      "Conducción cautelosa",
+      "Todas las anteriores"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué es cierto sobre derrapes de ruedas traseras?",
+    "options": [
+      "Las ruedas delanteras patinarán lateralmente",
+      "No causa tijera",
+      "Las ruedas bloqueadas tienen más tracción",
+      "El remolque puede empujar el tractor lateralmente"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Cuál afirmación es verdadera?",
+    "options": [
+      "Es más fácil ver peligros de noche",
+      "Es más fácil verlos de día",
+      "Conductores están más alertas de noche",
+      "Usar luces altas siempre entre 7 PM y 7 AM"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Inspectores federales pueden inspeccionar tu camión o autobús?",
+    "options": [
+      "Sí, pueden sacarlo de servicio",
+      "Sí, pero sin autoridad de servicio",
+      "Sí, solo en puertos de entrada",
+      "No"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Las fórmulas de puentes están diseñadas para:",
+    "options": [
+      "Determinar peso bruto total",
+      "Permitir el mismo peso en cualquier eje",
+      "Permitir menos peso si ejes están más cerca",
+      "Permitir menos peso si están más lejos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "En bajadas prolongadas, debes:",
+    "options": [
+      "Aplicar frenos del remolque",
+      "Usar freno motor",
+      "Bajar marcha si excedes velocidad",
+      "Exceder el límite de velocidad"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Tres factores del total de frenado comercial son:",
+    "options": [
+      "Distancia de percepción, reacción y frenado",
+      "Tiempo visual, reacción y frenado",
+      "Percepción, reacción y respuesta",
+      "Respuesta y frenado"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Cuál es una señal de somnolencia al volante?",
+    "options": [
+      "No puedes dejar de bostezar",
+      "Te desvías entre carriles",
+      "Tus ojos se cierran solos",
+      "Todas las anteriores"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué afirmación sobre incendios vehiculares es verdadera?",
+    "options": [
+      "Radiador sobrecalentado es el más común",
+      "Tener extintor cargado evita incendios",
+      "Llantas desinfladas no causan fuego",
+      "Ventilación deficiente puede causar fuego"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Si te enfermas gravemente y no puedes conducir seguro, debes:",
+    "options": [
+      "Tomar más café",
+      "Conducir más rápido para llegar",
+      "No conducir o detenerte en un lugar seguro",
+      "Todas las anteriores"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuántas hojas faltantes en un resorte lo ponen fuera de servicio?",
+    "options": [
+      "Una cuarta parte del total",
+      "Una octava parte",
+      "Una dieciseisava parte",
+      "Cualquiera"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Juego libre del volante:",
+    "options": [
+      "No debe superar 2 pulgadas en un volante de 20 pulgadas",
+      "No debe superar 10 grados",
+      "No está permitido por regulaciones",
+      "A y B son correctas"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Inspecciones de seguridad durante el viaje deben hacerse:",
+    "options": [
+      "Dentro de las primeras 50 millas",
+      "Cada 150 millas o 3 horas",
+      "Después de cada descanso",
+      "Todas las anteriores"
+    ],
+    "answer": 3
+  }
+]
