@@ -15,6 +15,21 @@
       padding: 20px;
       color: #333;
     }
+    .lang-buttons {
+      margin-bottom: 10px;
+    }
+    .lang-button {
+      padding: 8px 16px;
+      margin: 0 5px 10px 5px;
+      background-color: #2b6cb0;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .lang-button:hover {
+      background-color: #2c5282;
+    }
     #quiz-container {
       background: #ffffff;
       padding: 20px;
@@ -97,33 +112,21 @@
       transition: width 0.4s ease-in-out;
     }
     @media (max-width: 480px) {
-      .question {
-        font-size: 16px;
-      }
-      .option {
-        font-size: 14px;
-        padding: 10px;
-      }
-      #score {
-        font-size: 14px;
-      }
-      h3 {
-        font-size: 16px;
-      }
+      .question { font-size: 16px; }
+      .option { font-size: 14px; padding: 10px; }
+      #score { font-size: 14px; }
+      h3 { font-size: 16px; }
     }
   </style>
 </head>
 <body>
+  <div class="lang-buttons">
+    <button class="lang-button" onclick="setLanguage('english')">English</button>
+    <button class="lang-button" onclick="setLanguage('spanish')">Español</button>
+  </div>
+
   <select id="quiz-select">
     <option disabled selected>Select a quiz...</option>
-    <option value="PracticeTestC-1.json">C-1</option>
-    <option value="PracticeTestC-2.json">C-2</option>
-    <option value="PracticeTestB-1.json">B-1</option>
-    <option value="PracticeTestB-2.json">B-2</option>
-    <option value="PracticeTestB-3.json">B-3</option>
-    <option value="PracticeTestA-2.json">A-2</option>
-    <option value="PracticeTestA-3.json">A-3</option>
-    <option value="random">🎲 Random General Quiz</option>
   </select>
 
   <div id="quiz-container" style="display:none">
@@ -140,6 +143,12 @@
     let missedQuestions = [];
     let completedQuizzes = [];
     let currentQuizName = '';
+    let currentLang = 'english';
+
+    const quizzes = {
+      english: ["PracticeTestC-1.json", "PracticeTestC-2.json", "PracticeTestB-1.json", "PracticeTestB-2.json", "PracticeTestB-3.json", "PracticeTestA-2.json", "PracticeTestA-3.json", "random"],
+      spanish: ["PracticeTestC-1.json", "PracticeTestC-2.json", "PracticeTestB-1.json", "PracticeTestB-2.json", "PracticeTestB-3.json", "PracticeTestA-2.json", "PracticeTestA-3.json", "random"]
+    };
 
     const questionEl = document.getElementById('question');
     const optionsEl = document.getElementById('options');
@@ -148,68 +157,56 @@
     const quizSelect = document.getElementById('quiz-select');
     const progressBar = document.getElementById('progress-bar');
 
+    function setLanguage(lang) {
+      currentLang = lang;
+      quizSelect.innerHTML = '<option disabled selected>Select a quiz...</option>';
+      quizzes[lang].forEach(file => {
+        const option = document.createElement('option');
+        option.value = file;
+        option.textContent = file.replace('.json', '');
+        quizSelect.appendChild(option);
+      });
+    }
+
     quizSelect.addEventListener('change', async () => {
       const file = quizSelect.value;
       currentQuizName = file;
+      const basePath = currentLang + "/";
 
       if (file === 'random') {
-        const quizFiles = [
-          "PracticeTestC-1.json",
-          "PracticeTestC-2.json",
-          "PracticeTestB-1.json",
-          "PracticeTestB-2.json",
-          "PracticeTestB-3.json",
-          "PracticeTestA-2.json",
-          "PracticeTestA-3.json"
-        ];
+        const quizFiles = quizzes[currentLang].filter(q => q !== 'random');
         try {
           const allQuestions = [];
           for (const quizFile of quizFiles) {
-            const res = await fetch(quizFile);
+            const res = await fetch(basePath + quizFile);
             const data = await res.json();
             allQuestions.push(...data);
           }
           const shuffled = allQuestions.sort(() => 0.5 - Math.random());
           questions = shuffled.slice(0, 30);
-
-          current = 0;
-          score = 0;
-          missedQuestions = [];
-          scoreEl.textContent = "";
-          questionEl.textContent = "";
-          optionsEl.innerHTML = "";
-          quizContainer.style.display = 'block';
-          updateProgress();
-          showQuestion();
-
         } catch (err) {
-          console.error("Error loading random quiz:", err);
-          alert("Failed to load random quiz.");
+          alert("Error loading random quiz.");
+          return;
         }
-
       } else {
         try {
-          const res = await fetch(file);
+          const res = await fetch(basePath + file);
           questions = await res.json();
-
-          if (Array.isArray(questions)) {
-            current = 0;
-            score = 0;
-            missedQuestions = [];
-            scoreEl.textContent = "";
-            questionEl.textContent = "";
-            optionsEl.innerHTML = "";
-            quizContainer.style.display = 'block';
-            updateProgress();
-            showQuestion();
-          } else {
-            alert("Couldn't load questions correctly.");
-          }
         } catch (err) {
-          console.error("Error details:", err);
           alert("Error loading quiz file.");
+          return;
         }
       }
+
+      current = 0;
+      score = 0;
+      missedQuestions = [];
+      scoreEl.textContent = "";
+      questionEl.textContent = "";
+      optionsEl.innerHTML = "";
+      quizContainer.style.display = 'block';
+      updateProgress();
+      showQuestion();
     });
 
     function updateProgress() {
@@ -219,16 +216,13 @@
 
     function showQuestion() {
       updateProgress();
-
       if (current >= questions.length) {
         questionEl.textContent = "Quiz complete!";
         optionsEl.innerHTML = "";
         scoreEl.innerHTML = `You scored ${score} out of ${questions.length}`;
-
         if (!completedQuizzes.includes(currentQuizName)) {
           completedQuizzes.push(currentQuizName);
         }
-
         if (missedQuestions.length > 0) {
           let reviewHTML = '<h3>Review Missed Questions:</h3><ul>';
           missedQuestions.forEach(m => {
@@ -239,7 +233,6 @@
         } else {
           scoreEl.innerHTML += `<br><strong>Perfect score! 🎉</strong>`;
         }
-
         scoreEl.innerHTML += `<hr><strong>Completed quizzes this session:</strong><br>${completedQuizzes.map(name => name.replace('.json', '')).join(', ')}`;
         return;
       }
@@ -253,21 +246,16 @@
         btn.textContent = opt;
         btn.className = 'option';
         btn.onclick = () => {
-          if (idx === q.answer) {
-            score++;
-          } else {
-            missedQuestions.push({
-              question: q.question,
-              yourAnswer: q.options[idx],
-              correctAnswer: q.options[q.answer]
-            });
-          }
+          if (idx === q.answer) score++;
+          else missedQuestions.push({ question: q.question, yourAnswer: q.options[idx], correctAnswer: q.options[q.answer] });
           current++;
           showQuestion();
         };
         optionsEl.appendChild(btn);
       });
     }
+
+    setLanguage('english');
   </script>
 </body>
 </html>
